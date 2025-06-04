@@ -1,0 +1,388 @@
+====================== RIOGRANDE ======================================================================================================================================
+
+Architecture:             x86_64
+  CPU op-mode(s):         32-bit, 64-bit
+  Address sizes:          46 bits physical, 57 bits virtual
+  Byte Order:             Little Endian
+CPU(s):                   128
+  On-line CPU(s) list:    0-127
+Vendor ID:                GenuineIntel
+  Model name:             INTEL(R) XEON(R) GOLD 6530
+    CPU family:           6
+    Model:                207
+    Thread(s) per core:   2
+    Core(s) per socket:   32
+    Socket(s):            2
+    Stepping:             2
+    CPU max MHz:          4000.0000
+    CPU min MHz:          800.0000
+    BogoMIPS:             4200.00
+    Flags:                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe sysca
+                          ll nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known
+                          _freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe p
+                          opcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cat_l2 cdp_l3 invpcid_sin
+                          gle intel_ppin cdp_l2 ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust
+                           bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha
+                          _ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect avx_
+                          vnni avx512_bf16 wbnoinvd dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req avx512vbmi umip pku ospke waitpkg av
+                          x512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri mo
+                          vdir64b enqcmd fsrm md_clear serialize tsxldtrk pconfig arch_lbr amx_bf16 avx512_fp16 amx_tile amx_int8 flush_l1d arch_capabi
+                          lities
+Virtualization features:
+  Virtualization:         VT-x
+Caches (sum of all):
+  L1d:                    3 MiB (64 instances)
+  L1i:                    2 MiB (64 instances)
+  L2:                     128 MiB (64 instances)
+  L3:                     320 MiB (2 instances)
+NUMA:
+  NUMA node(s):           4
+  NUMA node0 CPU(s):      0-15,64-79
+  NUMA node1 CPU(s):      16-31,80-95
+  NUMA node2 CPU(s):      32-47,96-111
+  NUMA node3 CPU(s):      48-63,112-127
+Vulnerabilities:
+  Gather data sampling:   Not affected
+  Itlb multihit:          Not affected
+  L1tf:                   Not affected
+  Mds:                    Not affected
+  Meltdown:               Not affected
+  Mmio stale data:        Not affected
+  Reg file data sampling: Not affected
+  Retbleed:               Not affected
+  Spec rstack overflow:   Not affected
+  Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+  Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S
+  Srbds:                  Not affected
+  Tsx async abort:        Not affected
+
+
+
+
+====================== SUTLEJ ======================================================================================================================================
+
+Architecture:             x86_64
+  CPU op-mode(s):         32-bit, 64-bit
+  Address sizes:          52 bits physical, 57 bits virtual
+  Byte Order:             Little Endian
+CPU(s):                   384
+  On-line CPU(s) list:    0-383
+Vendor ID:                AuthenticAMD
+  Model name:             AMD EPYC 9654 96-Core Processor
+    CPU family:           25
+    Model:                17
+    Thread(s) per core:   2
+    Core(s) per socket:   96
+    Socket(s):            2
+    Stepping:             1
+    Frequency boost:      enabled
+    CPU max MHz:          3707.8120
+    CPU min MHz:          1500.0000
+    BogoMIPS:             4799.85
+    Flags:                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_o
+                          pt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma
+                           cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a mi
+                          salignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 in
+                          vpcid_single hw_pstate ssbd mba ibrs ibpb stibp ibrs_enhanced vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx
+                          512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm
+                          _llc cqm_occup_llc cqm_mbm_total cqm_mbm_local avx512_bf16 clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin cppc arat npt lbr
+                          v svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_
+                          ctrl avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid overfl
+                          ow_recov succor smca fsrm flush_l1d
+Virtualization features:
+  Virtualization:         AMD-V
+Caches (sum of all):
+  L1d:                    6 MiB (192 instances)
+  L1i:                    6 MiB (192 instances)
+  L2:                     192 MiB (192 instances)
+  L3:                     768 MiB (24 instances)
+NUMA:
+  NUMA node(s):           2
+  NUMA node0 CPU(s):      0-95,192-287
+  NUMA node1 CPU(s):      96-191,288-383
+Vulnerabilities:
+  Gather data sampling:   Not affected
+  Itlb multihit:          Not affected
+  L1tf:                   Not affected
+  Mds:                    Not affected
+  Meltdown:               Not affected
+  Mmio stale data:        Not affected
+  Reg file data sampling: Not affected
+  Retbleed:               Not affected
+  Spec rstack overflow:   Mitigation; safe RET
+  Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+  Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affe
+                          cted
+  Srbds:                  Not affected
+  Tsx async abort:        Not affected
+
+
+
+
+====================== INDUS ======================================================================================================================================
+
+Architecture:            x86_64
+  CPU op-mode(s):        32-bit, 64-bit
+  Address sizes:         48 bits physical, 48 bits virtual
+  Byte Order:            Little Endian
+CPU(s):                  64
+  On-line CPU(s) list:   0-63
+Vendor ID:               AuthenticAMD
+  Model name:            AMD EPYC 7313 16-Core Processor
+    CPU family:          25
+    Model:               1
+    Thread(s) per core:  2
+    Core(s) per socket:  16
+    Socket(s):           2
+    Stepping:            1
+    Frequency boost:     enabled
+    CPU max MHz:         3729.4919
+    CPU min MHz:         1500.0000
+    BogoMIPS:            5999.79
+    Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_op
+                         t pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma c
+                         x16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse
+                         3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_singl
+                         e hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 invpcid cqm rdt_a rdseed adx smap clflushopt clwb sh
+                         a_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd
+                         amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmlo
+                         ad vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca
+Virtualization features:
+  Virtualization:        AMD-V
+Caches (sum of all):
+  L1d:                   1 MiB (32 instances)
+  L1i:                   1 MiB (32 instances)
+  L2:                    16 MiB (32 instances)
+  L3:                    256 MiB (8 instances)
+NUMA:
+  NUMA node(s):          2
+  NUMA node0 CPU(s):     0-15,32-47
+  NUMA node1 CPU(s):     16-31,48-63
+Vulnerabilities:
+  Gather data sampling:  Not affected
+  Itlb multihit:         Not affected
+  L1tf:                  Not affected
+  Mds:                   Not affected
+  Meltdown:              Not affected
+  Mmio stale data:       Not affected
+  Retbleed:              Not affected
+  Spec rstack overflow:  Mitigation; safe RET
+  Spec store bypass:     Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+  Spectre v1:            Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:            Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+  Srbds:                 Not affected
+  Tsx async abort:       Not affected
+
+
+
+
+
+====================== GANGES ======================================================================================================================================
+
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   48 bits physical, 48 bits virtual
+CPU(s):                          256
+On-line CPU(s) list:             0-254
+Off-line CPU(s) list:            255
+Thread(s) per core:              1
+Core(s) per socket:              64
+Socket(s):                       2
+NUMA node(s):                    16
+Vendor ID:                       AuthenticAMD
+CPU family:                      25
+Model:                           1
+Model name:                      AMD EPYC 7763 64-Core Processor
+Stepping:                        1
+Frequency boost:                 enabled
+CPU MHz:                         1499.804
+CPU max MHz:                     2450.0000
+CPU min MHz:                     1500.0000
+BogoMIPS:                        4899.80
+Virtualization:                  AMD-V
+L1d cache:                       2 MiB
+L1i cache:                       2 MiB
+L2 cache:                        32 MiB
+L3 cache:                        256 MiB
+NUMA node0 CPU(s):               0-7,128-135
+NUMA node1 CPU(s):               8-15,136-143
+NUMA node2 CPU(s):               16-23,144-151
+NUMA node3 CPU(s):               24-31,152-159
+NUMA node4 CPU(s):               32-39,160-167
+NUMA node5 CPU(s):               40-47,168-175
+NUMA node6 CPU(s):               48-55,176-183
+NUMA node7 CPU(s):               56-63,184-191
+NUMA node8 CPU(s):               64-71,192-199
+NUMA node9 CPU(s):               72-79,200-207
+NUMA node10 CPU(s):              80-87,208-215
+NUMA node11 CPU(s):              88-95,216-223
+NUMA node12 CPU(s):              96-103,224-231
+NUMA node13 CPU(s):              104-111,232-239
+NUMA node14 CPU(s):              112-119,240-247
+NUMA node15 CPU(s):              120-127,248-254
+Vulnerability Itlb multihit:     Not affected
+Vulnerability L1tf:              Not affected
+Vulnerability Mds:               Not affected
+Vulnerability Meltdown:          Not affected
+Vulnerability Mmio stale data:   Not affected
+Vulnerability Retbleed:          Not affected
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+Vulnerability Srbds:             Not affected
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext
+                                  fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq monitor
+                                 ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_leg
+                                 acy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwai
+                                 tx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpc
+                                 id cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total
+                                  cqm_mbm_local clzero irperf xsaveerptr wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid dec
+                                 odeassists pausefilter pfthreshold v_vmsave_vmload vgif umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smc
+                                 a
+
+
+====================== HUAIHE ======================================================================================================================================
+
+Architecture:            x86_64
+  CPU op-mode(s):        32-bit, 64-bit
+  Address sizes:         52 bits physical, 57 bits virtual
+  Byte Order:            Little Endian
+CPU(s):                  512
+  On-line CPU(s) list:   0-511
+Vendor ID:               AuthenticAMD
+  Model name:            AMD EPYC 9754 128-Core Processor
+    CPU family:          25
+    Model:               160
+    Thread(s) per core:  2
+    Core(s) per socket:  128
+    Socket(s):           2
+    Stepping:            2
+    Frequency boost:     enabled
+    CPU max MHz:         3100.3411
+    CPU min MHz:         1500.0000
+    BogoMIPS:            4493.38
+    Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_op
+                         t pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma c
+                         x16 pcid sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misal
+                         ignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpci
+                         d_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdsee
+                         d adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc c
+                         qm_mbm_total cqm_mbm_local avx512_bf16 clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin cppc arat npt lbrv svm_lock nrip_save
+                         tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl avx512vbmi umip p
+                         ku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq la57 rdpid overflow_recov succor smca fs
+                         rm flush_l1d
+Virtualization features:
+  Virtualization:        AMD-V
+Caches (sum of all):
+  L1d:                   8 MiB (256 instances)
+  L1i:                   8 MiB (256 instances)
+  L2:                    256 MiB (256 instances)
+  L3:                    512 MiB (32 instances)
+NUMA:
+  NUMA node(s):          2
+  NUMA node0 CPU(s):     0-127,256-383
+  NUMA node1 CPU(s):     128-255,384-511
+Vulnerabilities:
+  Gather data sampling:  Not affected
+  Itlb multihit:         Not affected
+  L1tf:                  Not affected
+  Mds:                   Not affected
+  Meltdown:              Not affected
+  Mmio stale data:       Not affected
+  Retbleed:              Not affected
+  Spec rstack overflow:  Mitigation; safe RET
+  Spec store bypass:     Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+  Spectre v1:            Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+  Spectre v2:            Mitigation; Retpolines, IBPB conditional, IBRS_FW, STIBP always-on, RSB filling, PBRSB-eIBRS Not affected
+  Srbds:                 Not affected
+  Tsx async abort:       Not affected
+
+
+
+====================== TARIM ======================================================================================================================================
+
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Byte Order:                           Little Endian
+Address sizes:                        43 bits physical, 48 bits virtual
+CPU(s):                               128
+On-line CPU(s) list:                  0-127
+Thread(s) per core:                   2
+Core(s) per socket:                   64
+Socket(s):                            1
+NUMA node(s):                         1
+Vendor ID:                            AuthenticAMD
+CPU family:                           23
+Model:                                49
+Model name:                           AMD Ryzen Threadripper 3990X 64-Core Processor
+Stepping:                             0
+Frequency boost:                      enabled
+CPU MHz:                              2200.000
+CPU max MHz:                          2900.0000
+CPU min MHz:                          2200.0000
+BogoMIPS:                             5799.96
+Virtualization:                       AMD-V
+L1d cache:                            2 MiB
+L1i cache:                            2 MiB
+L2 cache:                             32 MiB
+L3 cache:                             256 MiB
+NUMA node0 CPU(s):                    0-127
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Mitigation; untrained return thunk; SMT enabled with STIBP protection
+Vulnerability Spec rstack overflow:   Mitigation; safe RET
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affecte
+                                      d
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx m
+                                      mxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pcl
+                                      mulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic
+                                       cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext per
+                                      fctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rd
+                                      seed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_l
+                                      ocal clzero irperf xsaveerptr rdpru wbnoinvd arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid de
+                                      codeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca s
+                                      me sev sev_es
+
+====================== YANGZI ======================================================================================================================================
+
+## EXCLUDE ##
+
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              56
+On-line CPU(s) list: 0-55
+Thread(s) per core:  2
+Core(s) per socket:  14
+Socket(s):           2
+NUMA node(s):        2
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               85
+Model name:          Intel(R) Xeon(R) Gold 5120 CPU @ 2.20GHz
+Stepping:            4
+CPU MHz:             1000.090
+CPU max MHz:         3200.0000
+CPU min MHz:         1000.0000
+BogoMIPS:            4400.00
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            1024K
+L3 cache:            19712K
+NUMA node0 CPU(s):   0-13,28-41
+NUMA node1 CPU(s):   14-27,42-55
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cdp_l3 invpcid_single pti intel_ppin ssbd mba ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm cqm mpx rdt_a avx512f avx512dq rdseed adx smap clflushopt clwb intel_pt avx512cd avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local dtherm ida arat pln pts hwp hwp_act_window hwp_epp hwp_pkg_req pku ospke md_clear flush_l1d arch_capabilities

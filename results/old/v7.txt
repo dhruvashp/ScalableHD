@@ -1,0 +1,51 @@
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32      k: 32
+R: 32
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 64
+Total OpenMP Threads: 64
+
+Average Parallel Time over 10 runs : 219.687 ms
+Average OpenMP Time over 10 runs   : 3928.829 ms
+Parallel vs OpenMP: 17.884                (>1 Win, =1 Tie, <1 Lose)
+dhruv@indus:~/hdc$
+dhruv@indus:~/hdc$ g++ -std=c++17 -O3 -march=native -fopenmp -pthread hdc_parallel_7_pipeline.cpp -I eigen-3.4.0 -I concurrentqueue-1.0.4 -o v7.out
+dhruv@indus:~/hdc$ ./v7.out
+
+
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32      k: 32
+R: 32
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 32
+Total OpenMP Threads: 32
+
+Average Parallel Time over 10 runs : 199.607 ms
+Average OpenMP Time over 10 runs   : 258.865 ms
+Parallel vs OpenMP: 1.297                (>1 Win, =1 Tie, <1 Lose)
+
+
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32      k: 32
+R: 32
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 32
+Total OpenMP Threads: 32
+
+Average Parallel Time over 50 runs : 208.719 ms
+Average OpenMP Time over 50 runs   : 255.414 ms
+Parallel vs OpenMP: 1.224                (>1 Win, =1 Tie, <1 Lose)

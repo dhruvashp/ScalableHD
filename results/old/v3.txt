@@ -1,0 +1,545 @@
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 32
+Total Threads = 2*(Threads Per Task): 2
+
+Average Naive Time over 100 runs    : 13.498 ms
+Average Parallel Time over 100 runs : 24.164 ms
+Speedup: 0.559
+Parallel Algorithm Optimality Ratio: 0.279
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 32
+Total Threads = 2*(Threads Per Task): 4
+
+Average Naive Time over 100 runs    : 14.075 ms
+Average Parallel Time over 100 runs : 18.500 ms
+Speedup: 0.761
+Parallel Algorithm Optimality Ratio: 0.190
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 32
+Total Threads = 2*(Threads Per Task): 8
+
+Average Naive Time over 100 runs    : 12.631 ms
+Average Parallel Time over 100 runs : 7.923 ms
+Speedup: 1.594
+Parallel Algorithm Optimality Ratio: 0.199
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 32
+Total Threads = 2*(Threads Per Task): 16
+
+Average Naive Time over 100 runs    : 12.589 ms
+Average Parallel Time over 100 runs : 12.978 ms
+Speedup: 0.970
+Parallel Algorithm Optimality Ratio: 0.061
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 32
+Total Threads = 2*(Threads Per Task): 32
+
+Average Naive Time over 100 runs    : 13.226 ms
+Average Parallel Time over 100 runs : 13.345 ms
+Speedup: 0.991
+Parallel Algorithm Optimality Ratio: 0.031
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 32
+Total Threads = 2*(Threads Per Task): 64
+
+Average Naive Time over 100 runs    : 13.093 ms
+Average Parallel Time over 100 runs : 13.229 ms
+Speedup: 0.990
+Parallel Algorithm Optimality Ratio: 0.015
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 32
+Total Threads = 2*(Threads Per Task): 128
+
+Average Naive Time over 100 runs    : 13.200 ms
+Average Parallel Time over 100 runs : 12.880 ms
+Speedup: 1.025
+Parallel Algorithm Optimality Ratio: 0.008
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 32
+Total Threads = 2*(Threads Per Task): 256
+
+Average Naive Time over 100 runs    : 13.469 ms
+Average Parallel Time over 100 runs : 31.196 ms
+Speedup: 0.432
+Parallel Algorithm Optimality Ratio: 0.002
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 512
+Total Threads = 2*(Threads Per Task): 2
+
+Average Naive Time over 10 runs    : 1213.934 ms
+Average Parallel Time over 10 runs : 293.196 ms
+Speedup: 4.140
+Parallel Algorithm Optimality Ratio: 2.070
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 512
+Total Threads = 2*(Threads Per Task): 4
+
+Average Naive Time over 10 runs    : 1206.505 ms
+Average Parallel Time over 10 runs : 172.233 ms
+Speedup: 7.005
+Parallel Algorithm Optimality Ratio: 1.751
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 512
+Total Threads = 2*(Threads Per Task): 8
+
+Average Naive Time over 10 runs    : 1201.869 ms
+Average Parallel Time over 10 runs : 103.843 ms
+Speedup: 11.574
+Parallel Algorithm Optimality Ratio: 1.447
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 512
+Total Threads = 2*(Threads Per Task): 16
+
+Average Naive Time over 10 runs    : 1215.732 ms
+Average Parallel Time over 10 runs : 69.502 ms
+Speedup: 17.492
+Parallel Algorithm Optimality Ratio: 1.093
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 512
+Total Threads = 2*(Threads Per Task): 32
+
+Average Naive Time over 10 runs    : 1220.112 ms
+Average Parallel Time over 10 runs : 51.177 ms
+Speedup: 23.841
+Parallel Algorithm Optimality Ratio: 0.745
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 512
+Total Threads = 2*(Threads Per Task): 64
+
+Average Naive Time over 10 runs    : 1210.432 ms
+Average Parallel Time over 10 runs : 46.002 ms
+Speedup: 26.313
+Parallel Algorithm Optimality Ratio: 0.411
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 512
+Total Threads = 2*(Threads Per Task): 128
+
+Average Naive Time over 10 runs    : 1201.130 ms
+Average Parallel Time over 10 runs : 49.375 ms
+Speedup: 24.327
+Parallel Algorithm Optimality Ratio: 0.190
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Threads = 2*(Threads Per Task): 2
+
+Average Naive Time over 10 runs    : 1228.382 ms
+Average Parallel Time over 10 runs : 571.728 ms
+Speedup: 2.149
+Parallel Algorithm Optimality Ratio: 1.074
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Threads = 2*(Threads Per Task): 4
+
+Average Naive Time over 10 runs    : 1230.266 ms
+Average Parallel Time over 10 runs : 300.514 ms
+Speedup: 4.094
+Parallel Algorithm Optimality Ratio: 1.023
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Threads = 2*(Threads Per Task): 8
+
+Average Naive Time over 10 runs    : 1224.478 ms
+Average Parallel Time over 10 runs : 170.496 ms
+Speedup: 7.182
+Parallel Algorithm Optimality Ratio: 0.898
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Threads = 2*(Threads Per Task): 16
+
+Average Naive Time over 10 runs    : 1218.334 ms
+Average Parallel Time over 10 runs : 126.736 ms
+Speedup: 9.613
+Parallel Algorithm Optimality Ratio: 0.601
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Threads = 2*(Threads Per Task): 32
+
+Average Naive Time over 10 runs    : 1220.484 ms
+Average Parallel Time over 10 runs : 96.737 ms
+Speedup: 12.616
+Parallel Algorithm Optimality Ratio: 0.394
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Threads = 2*(Threads Per Task): 32
+
+Average Naive Time over 10 runs    : 1220.484 ms
+Average Parallel Time over 10 runs : 96.737 ms
+Speedup: 12.616
+Parallel Algorithm Optimality Ratio: 0.394
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 16    d: 16    n: 16
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Threads = 2*(Threads Per Task): 64
+
+Average Naive Time over 10 runs    : 1218.029 ms
+Average Parallel Time over 10 runs : 89.457 ms
+Speedup: 13.616
+Parallel Algorithm Optimality Ratio: 0.213
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 2048
+Total Threads = 2*(Threads Per Task): 2
+
+Average Naive Time over 10 runs    : 1230.686 ms
+Average Parallel Time over 10 runs : 692.853 ms
+Speedup: 1.776
+Parallel Algorithm Optimality Ratio: 0.888
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 2048
+Total Threads = 2*(Threads Per Task): 4
+
+Average Naive Time over 10 runs    : 1244.072 ms
+Average Parallel Time over 10 runs : 363.541 ms
+Speedup: 3.422
+Parallel Algorithm Optimality Ratio: 0.856
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 2048
+Total Threads = 2*(Threads Per Task): 8
+
+Average Naive Time over 10 runs    : 1231.428 ms
+Average Parallel Time over 10 runs : 217.737 ms
+Speedup: 5.656
+Parallel Algorithm Optimality Ratio: 0.707
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 2048
+Total Threads = 2*(Threads Per Task): 16
+
+Average Naive Time over 10 runs    : 1249.799 ms
+Average Parallel Time over 10 runs : 423.262 ms
+Speedup: 2.953
+Parallel Algorithm Optimality Ratio: 0.185
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 2048
+Total Threads = 2*(Threads Per Task): 32
+
+Average Naive Time over 10 runs    : 1234.675 ms
+Average Parallel Time over 10 runs : 601.146 ms
+Speedup: 2.054
+Parallel Algorithm Optimality Ratio: 0.064
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 784    D: 10000       K: 10
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 4
+Processed Images -------------------------------------------------------------------
+N: 2048
+Total Threads = 2*(Threads Per Task): 64
+
+Average Naive Time over 10 runs    : 1227.135 ms
+Average Parallel Time over 10 runs : 660.768 ms
+Speedup: 1.857
+Parallel Algorithm Optimality Ratio: 0.029
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

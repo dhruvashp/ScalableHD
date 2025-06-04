@@ -1,0 +1,189 @@
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 1
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 32
+Total OpenMP Threads: 32
+
+Average Naive Time over 10 runs    : 588.911 ms
+Average Parallel Time over 10 runs : 430.624 ms
+Average OpenMP Time over 10 runs   : 217.850 ms
+Speedup (Parallel): 1.368
+Speedup (OpenMP)  : 2.703
+Parallel vs OpenMP: 0.506                (>1 Win, =1 Tie, <1 Lose)
+Parallel Algorithm Optimality Ratio: 0.043
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 2
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 32
+Total OpenMP Threads: 32
+
+Average Naive Time over 10 runs    : 585.570 ms
+Average Parallel Time over 10 runs : 294.124 ms
+Average OpenMP Time over 10 runs   : 220.786 ms
+Speedup (Parallel): 1.991
+Speedup (OpenMP)  : 2.652
+Parallel vs OpenMP: 0.751                (>1 Win, =1 Tie, <1 Lose)
+Parallel Algorithm Optimality Ratio: 0.062
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 3
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 32
+Total OpenMP Threads: 32
+
+Average Naive Time over 10 runs    : 582.283 ms
+Average Parallel Time over 10 runs : 216.038 ms
+Average OpenMP Time over 10 runs   : 216.089 ms
+Speedup (Parallel): 2.695
+Speedup (OpenMP)  : 2.695
+Parallel vs OpenMP: 1.000                (>1 Win, =1 Tie, <1 Lose)
+Parallel Algorithm Optimality Ratio: 0.084
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 3
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 32
+Total OpenMP Threads: 32
+
+Average Naive Time over 10 runs    : 584.758 ms
+Average Parallel Time over 10 runs : 225.011 ms
+Average OpenMP Time over 10 runs   : 217.180 ms
+Speedup (Parallel): 2.599
+Speedup (OpenMP)  : 2.693
+Parallel vs OpenMP: 0.965                (>1 Win, =1 Tie, <1 Lose)
+Parallel Algorithm Optimality Ratio: 0.081
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 16
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 32
+Total OpenMP Threads: 32
+
+Average Naive Time over 10 runs    : 582.086 ms
+Average Parallel Time over 10 runs : 192.430 ms
+Average OpenMP Time over 10 runs   : 217.524 ms
+Speedup (Parallel): 3.025
+Speedup (OpenMP)  : 2.676
+Parallel vs OpenMP: 1.130                (>1 Win, =1 Tie, <1 Lose)
+Parallel Algorithm Optimality Ratio: 0.095
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 32
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 32
+Total OpenMP Threads: 32
+
+Average Naive Time over 10 runs    : 581.263 ms
+Average Parallel Time over 10 runs : 189.657 ms
+Average OpenMP Time over 10 runs   : 212.888 ms
+Speedup (Parallel): 3.065
+Speedup (OpenMP)  : 2.730
+Parallel vs OpenMP: 1.122                (>1 Win, =1 Tie, <1 Lose)
+Parallel Algorithm Optimality Ratio: 0.096
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 32
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 32
+Total OpenMP Threads: 32
+
+Average Naive Time over 10 runs    : 577.370 ms
+Average Parallel Time over 10 runs : 186.119 ms
+Average OpenMP Time over 10 runs   : 245.605 ms
+Speedup (Parallel): 3.102
+Speedup (OpenMP)  : 2.351
+Parallel vs OpenMP: 1.320                (>1 Win, =1 Tie, <1 Lose)
+Parallel Algorithm Optimality Ratio: 0.097
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 32
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 32
+Total OpenMP Threads: 32
+
+Average Naive Time over 10 runs    : 598.730 ms
+Average Parallel Time over 10 runs : 237.224 ms
+Average OpenMP Time over 10 runs   : 251.898 ms
+Speedup (Parallel): 2.524
+Speedup (OpenMP)  : 2.377
+Parallel vs OpenMP: 1.062                (>1 Win, =1 Tie, <1 Lose)
+Parallel Algorithm Optimality Ratio: 0.079
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 32
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 64
+Total OpenMP Threads: 32
+
+Average Naive Time over 10 runs    : 602.564 ms
+Average Parallel Time over 10 runs : 183.053 ms
+Average OpenMP Time over 10 runs   : 258.437 ms
+Speedup (Parallel): 3.292
+Speedup (OpenMP)  : 2.332
+Parallel vs OpenMP: 1.412                (>1 Win, =1 Tie, <1 Lose)
+Parallel Algorithm Optimality Ratio: 0.051
+
+#################################################################################################################################
+Application Parameters -------------------------------------------------------------
+F: 1024    D: 32768       K: 1024
+Algorithm HyperParameters ----------------------------------------------------------
+f: 32    d: 32    n: 32
+R: 32
+Processed Images -------------------------------------------------------------------
+N: 1024
+Total Parallel Threads = 2*(Threads Per Task): 64
+Total OpenMP Threads: 64
+
+Average Naive Time over 10 runs    : 3796.155 ms
+Average Parallel Time over 10 runs : 216.755 ms
+Average OpenMP Time over 10 runs   : 3811.680 ms
+Speedup (Parallel): 17.514
+Speedup (OpenMP)  : 0.996
+Parallel vs OpenMP: 17.585                (>1 Win, =1 Tie, <1 Lose)
+Parallel Algorithm Optimality Ratio: 0.274
