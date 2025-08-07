@@ -17,7 +17,7 @@ std::vector<int> T_VALS = {1, 2, 4, 8, 16, 32};
 #define TRIALS 3
 
 // [<mod>] ("HIGH_THPT" or "LOW_LAT")
-#define VARIANT HIGH_THPT
+#define VARIANT LOW_LAT
 
 // [<mod>] (Thread pinning)
 constexpr bool USE_BIND = true;

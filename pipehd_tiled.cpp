@@ -48,7 +48,7 @@ std::string metadata_binding = (USE_BIND) ? std::string("binding_used") : std::s
 
 
 // Dataset [<mod>]
-std::string dataset = "HACT";
+std::string dataset = "EMOTION";
 
 
 
@@ -794,6 +794,10 @@ int main(){
         K_vals = {100};
         F_vals = {64};
    }
+   else if (dataset == "EMOTION"){
+        K_vals = {3};
+        F_vals = {1500};
+   }
    else{
     throw std::runtime_error("Dataset invalid/not supported!!!");
    }
@@ -804,8 +808,8 @@ int main(){
     std::vector<int> D_vals = {10000};
 
     // [<mod>]    
-    std::vector<int> N_vals = {1024, 2048, 4096, 8192, 16384, 32768};    // [HIGH_THPT]
-    // std::vector<int> N_vals = {32, 64, 128, 256, 512, 1024, 2048};          // [LOW_LAT]    
+    // std::vector<int> N_vals = {1024, 2048, 4096, 8192, 16384, 32768};    // [HIGH_THPT]
+    std::vector<int> N_vals = {32, 64, 128, 256, 512, 1024, 2048};          // [LOW_LAT]    
     
     // [<mod>] 
     std::vector<int> nfdk_vals = {16, 32};    // n = f = d = k                  

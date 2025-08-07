@@ -1,0 +1,14 @@
+    torchhd_LT_dict = {}
+    for N in [32, 64, 128, 256, 512, 1024, 2048]:
+        lat_norm_list, thru_list, lat_end_list, T_list = [], [], [], []
+        for T in [2, 4, 8, 16, 32, 64]:
+            loc_lat_end, loc_lat_norm, loc_thru = run_torchhd_maptensor_sim(N, F, D, K, T, runs=runs)
+            lat_norm_list.append(loc_lat_norm)
+            thru_list.append(loc_thru)
+            lat_end_list.append(loc_lat_end)
+            T_list.append(T)
+        torchhd_LT_dict[N] = {'latency_norm': lat_norm_list,
+                              'throughput': thru_list,
+                              'latency_end': lat_end_list,
+                              'T': [t // 2 for t in T_list],
+                              '2T': T_list}
